@@ -936,3 +936,9 @@ void saveDataToFile(const int SIZE, Customer customerList[], Checking CheckingAc
 		system("pause");
 	}
 }
+else if (whichFile == 3){
+	SaveCheckingToFile(CheckingAccountList[customerID], customerList[customerID]);
+	SaveSavingToFile(SavingAccountList[customerID], customerList[customerID]);
+	system("pause");
+	}
+}
